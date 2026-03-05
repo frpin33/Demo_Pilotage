@@ -7,7 +7,7 @@ from osgeo import gdal, ogr
 
 
 def pyplot() :
-    img_folder = 'U:/CarteAssistéEssence/transfert_techno_classif_essences/notebook/Datasets/train/'
+    img_folder = './PIEN_COMPLET'
     
 
     images = [os.path.join(img_folder,i) for i in os.listdir(img_folder) if i.endswith(".tif")]
